@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,400;0,700;1,400&display=swap');
+
+h1 {
+    color: rgba(255, 136, 0, 0.897);
+    text-shadow: 3px 3px 5px blue;
+}
+
+p {
+    font-size: 20px;
+    /* font-weight: 400; */
+    /* font-family: 'French Script MT', cursive; */
+    font-family: 'MuseoModerno', cursive;
+}
+
+p strong {
+    font-size: 1.5rem;
+}
+
+.bgimage {
+    width: 200px;
+    height: 150px;
+    color: white;
+    padding: 1rem;
+    background: url('https://placekitten.com/500') green center no-repeat;
+    background-size: cover;
+    border-radius: 3rem 3rem;
+    box-shadow: 0px 0px 20px rgba(243, 3, 3, 0.521);
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;    
+    width: 100px;
+    height: 100px;
+    background: #ffff0083;
+    position: relative;
+    top: -100px;
+    left: 50px;
+}
+
+.overlay span {
+    opacity: 1;
+}
